@@ -60,7 +60,7 @@ Historically, the industry has operated as a **moderately-to-highly concentrated
 
 The following open-source solutions cover clinical trials data capture, electronic healthcare record management, laboratory automation, and pharmaceutical customer relationship workflows.
 
-*Sorted by GitHub Stars in descending order:*
+*Sorted by GitHub_Stars in descending order:*
 
 - **[ERPNext](https://github.com/frappe/erpnext)** <a href="https://github.com/frappe/erpnext/stargazers"><img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext stars"/></a>  
   Full-featured open-source ERP system featuring integrated CRM, inventory, distribution, and specialized healthcare & laboratory management modules. Actively adapted by pharmaceutical consulting firms and medical device distributors to manage HCP networks, client pipelines, and batch tracking.  
@@ -133,7 +133,7 @@ Contributions are warmly encouraged! Help us keep this directory current, exhaus
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-crm-tool`).
-3. 📝 **Add or update the tool** in `README.md` following the established format (provide specific starting pricing, verified company valuation, and star badges).
+3. 📝 **Add or update the tool** in `README.md` following the established format (provide specific starting pricing, verified company valuation, and Stars_Badges).
 4. 🚀 **Submit a Pull Request** with a concise description of your changes and official references.
 
 ⭐ **Star the repo** if this curated overview provides value to your life sciences team!
