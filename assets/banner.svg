@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; border-radius:12px; overflow:hidden;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Accents -->
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Floating Nodes & Grid Backing (Dynamic aspects) -->
+  <g opacity="0.35">
+    <circle cx="150" cy="80" r="120" fill="#06b6d4" filter="url(#glow)" opacity="0.15">
+      <animate attributeName="cy" values="80;110;80" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="r" values="120;135;120" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="280" r="140" fill="#3b82f6" filter="url(#glow)" opacity="0.15">
+      <animate attributeName="cy" values="280;250;280" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="r" values="140;155;140" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="850" cy="90" r="100" fill="#10b981" filter="url(#glow)" opacity="0.12">
+      <animate attributeName="cx" values="850;880;850" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Dynamic Pulse Rings (Floating Network Elements in background) -->
+  <g opacity="0.25">
+    <line x1="80" y1="180" x2="320" y2="280" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" values="0;24" dur="3s" repeatCount="indefinite" />
+    </line>
+    <line x1="900" y1="80" x2="1120" y2="180" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="3s" repeatCount="indefinite" />
+    </line>
+    <circle cx="320" cy="280" r="4" fill="#06b6d4" />
+    <circle cx="900" cy="80" r="4" fill="#3b82f6" />
+    <circle cx="1120" cy="180" r="5" fill="#10b981" />
+  </g>
+
+  <!-- Interactive Dynamic DNA / Molecule Motif in Corner (Background layer) -->
+  <g opacity="0.22" transform="translate(980, 40)">
+    <circle cx="0" cy="20" r="8" fill="#06b6d4">
+      <animate attributeName="cy" values="20;120;20" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="60" cy="120" r="8" fill="#3b82f6">
+      <animate attributeName="cy" values="120;20;120" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <line x1="0" y1="70" x2="60" y2="70" stroke="#10b981" stroke-width="2" opacity="0.6">
+      <animate attributeName="y1" values="20;120;20" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="120;20;120" dur="6s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- Foreground Content: Pill Badges -->
+  <g transform="translate(80, 52)">
+    <!-- Pill 1: Pharma & Biotech CRM -->
+    <rect x="0" y="0" width="180" height="28" rx="14" fill="#0e2439" stroke="#0284c7" stroke-width="1.2" />
+    <circle cx="14" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="18" fill="#38bdf8" font-size="12" font-weight="600" letter-spacing="0.5">PHARMA &amp; BIOTECH</text>
+
+    <!-- Pill 2: Healthcare Field Engagement -->
+    <rect x="192" y="0" width="195" height="28" rx="14" fill="#0b2e27" stroke="#059669" stroke-width="1.2" />
+    <circle cx="206" cy="14" r="5" fill="#34d399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="220" y="18" fill="#34d399" font-size="12" font-weight="600" letter-spacing="0.5">FIELD ENGAGEMENT</text>
+
+    <!-- Pill 3: Clinical Trials & HCP 360 -->
+    <rect x="399" y="0" width="170" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+    <circle cx="413" cy="14" r="5" fill="#818cf8" />
+    <text x="427" y="18" fill="#a5b4fc" font-size="12" font-weight="600" letter-spacing="0.5">CLINICAL &amp; HCP 360</text>
+  </g>
+
+  <!-- Foreground Main Title -->
+  <text x="80" y="145" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-1">
+    Awesome Life Sciences CRM
+  </text>
+
+  <!-- Foreground Subtitle / Tagline -->
+  <text x="80" y="188" fill="#94a3b8" font-size="18" font-weight="400">
+    Curated Hub of Commercial Pharma Platforms, HCP Engagement &amp; Open-Source Clinical Suites
+  </text>
+
+  <!-- Feature Tags / Capabilities Row -->
+  <g transform="translate(80, 230)">
+    <!-- Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="220" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+      <text x="16" y="24" fill="#38bdf8" font-size="13" font-weight="700">💊 Commercial Pharma</text>
+      <text x="16" y="41" fill="#64748b" font-size="11">Veeva • Salesforce • IQVIA</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(236, 0)">
+      <rect x="0" y="0" width="220" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+      <text x="16" y="24" fill="#34d399" font-size="13" font-weight="700">🔬 Open Clinical &amp; EDC</text>
+      <text x="16" y="41" fill="#64748b" font-size="11">clinic EDC • LibreClinica • Medplum</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(472, 0)">
+      <rect x="0" y="0" width="230" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+      <text x="16" y="24" fill="#a78bfa" font-size="13" font-weight="700">🏥 HCP &amp; Patient 360</text>
+      <text x="16" y="41" fill="#64748b" font-size="11">OpenEMR • OpenMRS • ERPNext</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(718, 0)">
+      <rect x="0" y="0" width="220" height="52" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+      <text x="16" y="24" fill="#f59e0b" font-size="13" font-weight="700">📋 Compliance &amp; GxP</text>
+      <text x="16" y="41" fill="#64748b" font-size="11">21 CFR Part 11 • HIPAA • GDPR</text>
+    </g>
+  </g>
+
+  <!-- Accent Bottom Border Line -->
+  <rect x="0" y="354" width="1200" height="6" fill="url(#tealGrad)" />
+</svg>
