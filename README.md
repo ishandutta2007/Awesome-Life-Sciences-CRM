@@ -25,6 +25,7 @@
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🔬 Additional Open-Source & Framework Options](#-additional-open-source--framework-options)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [📈 Star History](#-star-history)
 - [⚖️ Disclaimer](#-disclaimer)
 
@@ -136,6 +137,27 @@ Contributions are warmly encouraged! Help us keep this directory current, exhaus
 4. 🚀 **Submit a Pull Request** with a concise description of your changes and official references.
 
 ⭐ **Star the repo** if this curated overview provides value to your life sciences team!
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome-Life-Sciences-CRM**! 🧬✨ Maintaining and continuously curating these healthcare and life sciences resources takes time and passion.
+
+If you find this project valuable, here are a few great ways you can support:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** by adding new tools, libraries, and frameworks.
+- 📢 **Share it** with fellow developers, researchers, CROs, and biotech teams.
+- ☕ **Buy me a coffee / Sponsor the project**: Support ongoing maintenance directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
 
 ---
 
