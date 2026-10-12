@@ -1,6 +1,6 @@
 # Awesome-Life-Sciences-CRM
 
-# Top Life Sciences CRM Tools Ecosystem
+## Top Life Sciences CRM Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Pharmaceutical Field Engagement, Clinical Trial Support & Healthcare Provider Relationships*  
